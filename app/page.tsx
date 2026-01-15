@@ -21,6 +21,7 @@ function View() {
   return view === "gallery" ? <Gallery data={data} /> : <Lookbook data={data} />;
 }
 
+export default function Home() {
   return (
     <main>
       <Searching />

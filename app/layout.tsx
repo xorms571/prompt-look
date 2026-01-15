@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Theme accentColor="mint" className="max-w-7xl m-auto">
+        <Theme accentColor="tomato" className="max-w-7xl m-auto">
           <Suspense fallback={<div className="h-20 w-full"></div>}>
             <Header isLoggedIn={true} creditAmount={100} userName="John Doe" />
           </Suspense>

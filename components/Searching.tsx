@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Searching() {
     return (
-        <div className="flex px-4 gap-2">
+        <div className="flex gap-2 mt-20 max-w-7xl w-full m-auto px-4">
             <Select.Root defaultValue="new">
                 <Select.Trigger className="min-h-10! min-w-48! px-8! cursor-pointer!" radius="full" />
                 <Select.Content className="rounded-2xl! p-1! mt-2! bg-(--color-bg-content-2)!" position="popper">
